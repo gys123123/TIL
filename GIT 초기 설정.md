@@ -81,7 +81,7 @@ $ git commit -m "commit message"
 - 커밋 목록은 git log를 통해서 확인 할 수 있음
 
 ```bash
-$ git log --oneline
+$ git log --oneline q 로 빠져나갈 수 있음
 
 ```
 
