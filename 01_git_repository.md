@@ -63,13 +63,12 @@ git branch -m main
 
 작업관리자에서 git credential-manager 끝내기 깃허브 아이디 비밀번호 입력하기
 
-# git pull
+# pull
+
+- 원격 저장소의 변경사항을 받아옴(업데이트)
 
 ```bash
-git pull은 다른 사람이 PR을 통해서 코드를 업데이트했거나, 아니면 Github를 통해서 commit했을 때(Github를 통해서도 간단한 commit을 할 수 있습니다) 그 내용을 클라이언트로 내려받는 명령어입니다. **git pull origin master** 하면 origin의 내용이 master로 복사됩니다.
-
-git pull을 할 때는 깃허브의 유저이름과 비밀번호를 쳐야하는 경우가 많습니다. 매번 비밀번호를 치기 귀찮다면 `git config --global credential.helper 'store --file 경로'`하면 됩니다. 해당 경로에 비밀번호가 저장된 파일이 생성됩니다. 단, 파일로 저장되는만큼 보안에 취약하기 때문에 주의해야 합니다.
-
+$ git pull origin master
 
 ```
 
@@ -83,8 +82,9 @@ git pull을 할 때는 깃허브의 유저이름과 비밀번호를 쳐야하는
 
 ```bash
 $ git clone {원격저장소 URL}
+#새로운 환경에서 잘 쓰임
 ```
 
 - 주의사항
 - 이미 git init이 되어있음
-- 
+
