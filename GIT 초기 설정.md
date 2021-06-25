@@ -85,3 +85,14 @@ $ git log --oneline
 
 ```
 
+
+
+# touch
+
+
+
+```bash
+$ touch 파일명
+# bash내 파일 생성
+```
+
